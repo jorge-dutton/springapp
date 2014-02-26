@@ -6,12 +6,9 @@
   <packaging>war</packaging>
   <properties>
   	<tomcat.home>C:\apache-tomcat-7.0.50\webapps</tomcat.home>
-  	
-  	<!--    
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    -->
     <sonar.language>java</sonar.language>
+    <sonar.sources>src/main/java,src/test/resources/java</sonar.sources>
   </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
