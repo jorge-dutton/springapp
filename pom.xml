@@ -8,7 +8,7 @@
   	<tomcat.home>C:\apache-tomcat-7.0.50\webapps</tomcat.home>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
-    <sonar.sources>src/main/java,src/test/resources/java</sonar.sources>
+    <sonar.sources>main/java,test/resources/java</sonar.sources>
   </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
