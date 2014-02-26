@@ -10,24 +10,10 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class HelloController implements Controller {
 
-	protected final Log logger = LogFactory.getLog(getClass());
+	private static final Log LOGGER = LogFactory.getLog(springapp.web.HelloController.class);
 
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {
-		logger.info("Pintamos hola!!!");
+		LOGGER.info("Pintamos hola!!!");
 		return new ModelAndView("hello.jsp");
 	}
-
-	/*
-	public void funcionChunga() {
-		String test = null;
-		
-		if(test.equals(null)) {
-			if (true) {
-				if (true) {
-					
-				}
-			}
-		}
-	}
-	*/
 }

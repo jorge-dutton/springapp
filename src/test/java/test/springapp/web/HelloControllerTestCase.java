@@ -10,7 +10,7 @@ import springapp.web.HelloController;
 public class HelloControllerTestCase extends TestCase {
 
 	@Test
-	public void testHandleRequestview() throws Exception{
+	public void testHandleRequestview() {
 		HelloController controller = new HelloController();
         ModelAndView modelAndView = controller.handleRequest(null, null);		
         assertEquals("hello.jsp", modelAndView.getViewName());
