@@ -1,15 +1,20 @@
 package test.springapp.domain;
 
+import org.junit.Before;
+import org.junit.Test;
+
 import springapp.domain.Product;
 import junit.framework.TestCase;
 
 public class ProductTests extends TestCase {
    private Product product;
    
+   @Before
    protected void setUp() {
 	   product = new Product();
    }
    
+   @Test
    public void testSetAndGetDescription() {
 	   String testDescription = "aDescription";
 	   assertNull(product.getDescription());
@@ -17,6 +22,7 @@ public class ProductTests extends TestCase {
 	   assertEquals(testDescription, product.getDescription());
    }
    
+   @Test
    public void testSetAndGetPrice() {
 	   double testPrice = 100.00;
 	   assertEquals(0, 0, 0);
