@@ -6,7 +6,7 @@ import org.junit.Test;
 import springapp.domain.Product;
 import junit.framework.TestCase;
 
-public class ProductTests extends TestCase {
+public class ProductTest extends TestCase {
    private Product product;
    
    @Before
