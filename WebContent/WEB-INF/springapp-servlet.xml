@@ -8,5 +8,10 @@
   <!-- the application context definition for the springapp DispatcherServlet -->
 
   <bean name="/hello.htm" class="springapp.web.HelloController"/>
-
+  
+  <bean id="viewResolver" class="springapp.web.HelloController">
+  	<property name="viewClass" value="org.springframework.web.servlet.InternalResourceViewResolver"></property>
+  	<property name="prefix" value="WEB-INF/jsp/"></property>
+  	<property name="suffix" value=".jsp"></property>
+  </bean>
 </beans>

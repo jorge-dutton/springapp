@@ -1,5 +1,5 @@
 eclipse.preferences.version=1
-extraProperties=sonar.language\=java
+extraProperties=sonar.language\=java\r\nsonar.sources\=src/main/java,src/test/resources/java
 projectKey=springapp\:springapp
 serverUrl=http\://localhost\:9000
 version=2

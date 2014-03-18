@@ -8,5 +8,5 @@
   <!-- the application context definition for the springapp DispatcherServlet -->
 
   <bean name="/hello.htm" class="springapp.web.HelloController"/>
-
+  <bean name="/pollas.htm" class="springapp.web.HelloController"/>
 </beans>

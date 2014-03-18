@@ -1,5 +1,7 @@
 package springapp.web;
 
+import java.util.Date;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -14,6 +16,8 @@ public class HelloController implements Controller {
 
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {
 		LOGGER.info("Pintamos hola!!!");
-		return new ModelAndView("hello.jsp");
+		String now = (new Date()).toString();
+		LOGGER.info("Devolvemos vista con fecha actual... " + now);
+		return new ModelAndView("hello", "now", now);
 	}
 }
