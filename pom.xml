@@ -8,7 +8,7 @@
   	<tomcat.home>C:\apache-tomcat-7.0.50\webapps</tomcat.home>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	<sonar.language>java</sonar.language>
-    <sonar.sources>src/main/java,src/test/resources/java</sonar.sources>
+    <sonar.sources>src/main/java,src/test/java</sonar.sources>
     
     <jsf.version>2.2.1</jsf.version>
     
@@ -42,7 +42,7 @@
     	<version>2.16</version>
     	<configuration>
     		<sourceDirectory>src/main/java</sourceDirectory>
-    		<testSourceDirectory>src/test/resources/java</testSourceDirectory>
+    		<testSourceDirectory>src/test/java</testSourceDirectory>
     	</configuration>
       </plugin>
 
