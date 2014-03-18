@@ -1,2 +1,7 @@
+test\springapp\service\ProductManagerImplTest.class
+test\springapp\domain\ProductTest.class
+springapp\service\ProductManager.class
+springapp\domain\Product.class
+springapp\service\ProductManagerImpl.class
 test\springapp\web\HelloControllerTestCase.class
 springapp\web\HelloController.class
